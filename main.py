@@ -32,3 +32,5 @@ my_model.fit(train_images, train_labels, epochs=3)
 # test model
 val_loss, val_acc= my_model.evaluate(test_images, test_labels)
 print('Test Accuracy:', val_acc)
+import tensorflow as tf
+print(tf.__version__)
